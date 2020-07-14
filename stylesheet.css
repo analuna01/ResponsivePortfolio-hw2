@@ -6,12 +6,7 @@ header{
     background-color: white;
     text-align: center;
     padding: 30px;
-}
-
-#name {
-    background-color: rgb(94, 153, 153);
-    box-sizing: 15px;
-}
+}    
 
 .container {
     max-width: 980;
@@ -26,15 +21,32 @@ header{
     padding-top: 30px;
     padding-left: 60px;
 }   
-#contact{
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-    clear: both;
+
+.portfolio img{
+    max-height: 300px;
+    padding-top: 30px;
+    padding-left: 60px;
 }
-.row:after {
-    display: table;
-    clear: both;
-  }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}    
+
+#contact{
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
    
